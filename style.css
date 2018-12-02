@@ -164,6 +164,12 @@ p a:hover{
   .borders {
   border-radius: 25px;
   }
+  section#contact .form-group textarea{
+margin-top:40px;
+margin-bottom:5px;
+padding:20px;
+height:80px;
+}
 }
 
   .topcontact{
@@ -180,6 +186,12 @@ p a:hover{
     .toprightstyle{
       border-top-right-radius: 25px;
     }
+    section#contact .form-group textarea{
+margin-top:40px;
+margin-bottom:5px;
+padding:20px;
+height:100px;
+}
 	}
 
 .contactborderstylesright{
@@ -316,19 +328,19 @@ section#contact .form-group input.form-control {
 	padding:5px;
 
 }
-@media screen and (max-width:1301px) {
+@media screen and (max-width:2301px)  {
 
 section#contact .form-group input,
 section#contact .form-group input.form-control {
 	margin-top:10px;
 	margin-bottom:5px;
-	padding:10px;
+	padding:20px;
 
 }
 section#contact .form-group textarea{
 margin-top:40px;
 margin-bottom:5px;
-padding:20px;
+padding:15px;
 height:100px;
 }
 
