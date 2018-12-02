@@ -4,18 +4,19 @@ body{
 .apphead{
 	background-color:white;
 	height:120px;
-	width:100%	
+	width:100%
 }
 .container-fluid{
 	background-color:white;
 	width:100%;
-	height:80px
+	height:200px
 }
 .container{
 	text-align:center;
+
 }
 .wrapper{
-	height:800px;
+	height:1400px;
 	width:100%;
 }
 .nav{
@@ -47,7 +48,7 @@ body{
 	height:150px:
 }
 .row{
-	height:500px;
+	height:400px;
 	background-color:white;
 }
 .sidebar-module {
@@ -69,4 +70,274 @@ body{
 img{
 	height:60px;
 	width:160px;
+}
+//contact
+.contentwrapper{
+  text-align: center;
+  padding: 3em 0em;
+}
+.forms{
+  background: white;
+  width: 90%;
+  margin: 0 auto;
+    border-radius: 25px;
+
+}
+.contentwrapper .container .abouttext{
+  background:black;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  margin: 3em 0;
+  border-radius: 25px;
+}
+
+.contactstyle{
+  text-align: left;
+}
+
+.contentwrapper .container .abouttext .images{
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: center;
+  }
+
+.contentwrapper .container .abouttext p{
+  padding-bottom: 5em;
+  text-align: left;
+  margin: 0 auto;
+  margin-left: 6em;
+
+}
+
+.contentwrapper .container .abouttext h2 {
+padding-top: 1em;
+  text-align: center;
+
+}
+forms{
+  background: white;
+  width: 90%;
+  margin: 0 auto;
+    border-radius: 25px;
+
+}
+.text-centre{
+  text-align: center;
+}
+.aboutinfo{
+  text-align: center;
+  margin-left: 70px;
+  padding-left: 1em;
+}
+
+.contentwrapper  a{
+  text-decoration: none;
+  color: #3c3c3c;
+}
+
+p a:hover{
+  text-decoration: none;
+  color: #3c3c3c;
+}
+.servicesbox{
+  height: 600px;
+}
+.servicesboxheight{
+  height: 120px;
+}
+
+
+.borderstylesright{
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.borderstylesleft{
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+
+
+
+@media screen and (max-width:991px) {
+  .borders {
+  border-radius: 25px;
+  }
+}
+
+  .topcontact{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+  }
+
+  .bottomcontact{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  @media screen and (max-width:1301px) {
+    .toprightstyle{
+      border-top-right-radius: 25px;
+    }
+	}
+
+.contactborderstylesright{
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+
+.contactborderstylesleft{
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  }
+
+.btn-primary,.btn-primary:visited,.btn-primary:active  {
+    color: #fff;
+    background-color: #5b5b5b;
+    border-color: #4f4f4f;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #444;
+    border-color: #4f4f4f;
+}
+
+hr{
+margin-top:-5px
+}
+
+.contactform{
+	background-color: black;
+  text-align:center;
+  height: 500px;
+  width:800px;
+  padding:10px 50px 15px;
+  margin-top:20px;
+  margin-bottom:20px;
+  box-shadow:0 0 15px;
+  border-radius:16px;
+  float:left;
+  padding-left: 40px;
+	padding-bottom: 40px;
+  margin-top: 80px;
+}
+
+.contactform label{
+margin-right: 500px;
+align-items: center;
+margin-bottom: 5px;
+}
+
+input[type="email"] , input[type="text"]{
+margin-top:5px;
+height:40px;
+margin-bottom:25px;
+padding:5px;
+border:3px solid #009688
+}
+
+input {
+     line-height: 21.5;
+     height:30px
+}
+
+#message{
+	padding-top: 50px;
+  padding-bottom: 70px;
+  height:80px;
+}
+
+.formbutton {
+    color: #fff;
+    background-color:#ff0000;
+    border-color: #2a9bf1;
+}
+
+.formbutton:visited {
+    color: #fff;
+    background-color: #2BC1F2;
+    border-color: #2a9bf1;
+}
+
+.formbutton:active {
+    color: #fff;
+    background-color: #2BC1F2;
+    border-color: #2a9bf1;
+}
+
+.formbutton:hover {
+  color: #fff;
+  background-color: #27a7d1;
+  border-color: #2397bc;
+}
+
+.formbutton h4 {
+ color: blue;
+ font-weight: bold;
+}
+
+.submitbutton{
+padding-left: 2em;
+color:blue;
+}
+
+.gmap{
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+
+#map{
+  margin: 0 auto;
+  padding-top: 6em;
+  width:auto;
+  height:700px;
+}
+section#contact {
+  background-color: #212529;
+  background-image: url("images/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: 1400px;
+}
+
+section#contact .section-heading {
+  color: #fff;
+  margin-bottom: 25px;
+
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea,
+section#contact .form-group input.form-control {
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:5px;
+
+}
+@media screen and (max-width:1301px) {
+
+section#contact .form-group input,
+section#contact .form-group input.form-control {
+	margin-top:10px;
+	margin-bottom:5px;
+	padding:10px;
+
+}
+section#contact .form-group textarea{
+margin-top:40px;
+margin-bottom:5px;
+padding:20px;
+height:100px;
+}
+
+
+}
+section#contact :-ms-input-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helv
+etica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+ 'Noto Color Emoji';
 }
